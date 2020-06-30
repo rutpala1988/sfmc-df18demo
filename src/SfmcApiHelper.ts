@@ -7,7 +7,7 @@ import Utils from './Utils';
 export default class SfmcApiHelper
 {
     // Instance variables
-    private _deExternalKey = "DF18Demo";
+    private _deExternalKey = "testdataextGGB";
     private _sfmcDataExtensionApiUrl = "https://www.exacttargetapis.com/hub/v1/dataevents/key:" + this._deExternalKey + "/rowset";
 
     /**

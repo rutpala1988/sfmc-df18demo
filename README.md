@@ -57,11 +57,11 @@ See [API Integration](https://developer.salesforce.com/docs/atlas.en-us.mc-app-d
 ### Step #4: Set environment variables
 
 1. Get the ```ClientID``` and ```ClientSecret``` from API Integration component and put in the following environment variables on your local computer:
-    - ```DF18DEMO_CLIENTID=YOUR_CLIENTID```
-    - ```DF18DEMO_CLIENTSECRET=YOUR_CLIENTSECRET```
+    - ```TEST_SFMC_CLIENTID=YOUR_CLIENTID```
+    - ```TEST_SFMC_CLIENT_SECRET=YOUR_CLIENTSECRET```
 
 1. Get the ```JWT SIGNING SECRET``` from the Marketing Cloud App put in the following environment variable on your local computer:
-    - ```DF18DEMO_JWTSECRET=YOUR_JWT_SIGNING_SECRET```
+    - ```TEST_JWT_TOKEN=YOUR_JWT_SIGNING_SECRET```
 
 See [Get an API Key](https://developer.salesforce.com/docs/atlas.en-us.noversion.mc-getting-started.meta/mc-getting-started/get-api-key.htm) for more details.
 
@@ -125,9 +125,9 @@ Here are detailed instructions on running Node.js web apps in Heroku: https://de
 > *TIP:* Remember to set the following environment variables for the Herkou app:
 
 - ```RUNNING_IN_HEROKU=true```
-- ```DF18DEMO_CLIENTID=YOUR_CLIENTID```
-- ```DF18DEMO_CLIENTSECRET=YOUR_CLIENTSECRET```
-- ```DF18DEMO_JWTSECRET=YOUR_JWT_SIGNING_SECRET```
+- ```TEST_SFMC_CLIENTID=YOUR_CLIENTID```
+- ```TEST_SFMC_CLIENT_SECRET=YOUR_CLIENTSECRET```
+- ```TEST_JWT_TOKEN=YOUR_JWT_SIGNING_SECRET```
 
 
 # Looking for more info?
